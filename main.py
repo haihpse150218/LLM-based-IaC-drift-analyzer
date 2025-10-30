@@ -69,7 +69,8 @@ if __name__ == '__main__':
             chunk['type'] = "iac_configuration"
             chunk['id'] = str(uuid.uuid1())
             chunk['timestamp'] = timestamp
-            chunk['owner'] = 'unknow'
+            chunk['owner'] = 'haihpse150218'
+            chunk['repo'] = 'https://github.com/haihpse150218/terraform-on-aws-ec2.git'
             print(formatted)
             results.append(chunk)
             print('-' * 50)
