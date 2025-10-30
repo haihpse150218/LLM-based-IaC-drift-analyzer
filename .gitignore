@@ -3,3 +3,4 @@ RESSOURCE/*
 output.json
 .vscode/
 __pycache__/
+!RESSOURCE/readme.md
