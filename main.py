@@ -68,7 +68,7 @@ if __name__ == '__main__':
             formatted = format_chunk(chunk)
             chunk['type'] = "iac_configuration"
             chunk['id'] = str(uuid.uuid1())
-            chunk['timestamp'] = timestamp
+            chunk['update_at'] = timestamp
             chunk['owner'] = 'haihpse150218'
             chunk['repo'] = 'https://github.com/haihpse150218/terraform-on-aws-ec2.git'
             print(formatted)
