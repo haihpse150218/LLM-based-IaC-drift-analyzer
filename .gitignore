@@ -1,3 +1,5 @@
 # ignore resouce teraform 
 RESSOURCE/*
 output.json
+.vscode/
+__pycache__/
